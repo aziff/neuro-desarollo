@@ -1,0 +1,38 @@
+\documentclass[12pt]{article}
+\usepackage{graphicx}
+
+\begin{document}
+
+\title{Neuro Desarollo Data Overview}
+\author{ Sarah Quander}
+\date {6/30/16}
+\section{Data Overview}
+
+\subsection{Location}
+The state, municipal, and local town for each subject is recorded along with numeric ID's associated with each of the aforementioned. In total there are 9 states, 661 municipalities, and 1,827 towns represented within the data. The 367,993 subjects were divided between 32, with the assignment of test center being based off of proximity to the subjects home. Additionally, The altitude of each test center is recorded.
+
+\subsection{Family}
+Each family which participated within the program was assigned an identification number. Limited data was collected on the history of the mother. The mother or caregiver's name is recorded, although not encoded to ensure privacy. There are multiple cases of numerous children from the same family participating in the study. The definition of the variable `NumNino' is unknown due to ambiguity in the codebook and the large range of recorded values.
+
+\subsection{Cohort Structure}
+There are 3 methods which we can consider when we attempt to determine a cohort structure. First, we could analyze the data based on the 32 separate test centers at which these studies were conducted. Second, we can further specify the cohorts by both their test center and furthermore their associated proctor. Each test center contained multiple proctors, on average 3, which supervised the subjects overall treatment. Finally, we could conclude that appear to be divided into cohorts based off of the individuals assigned test center, assigned proctor and their start date.
+
+\subsection{Subject Background}
+The name and date of birth of each subject is recorded along with the assigned identification number of the participant. The sex of each subject is both recorded as a string variable and encoded as the variable "SexoNum".  
+
+\subsection{Gender Breakdown}
+The gender breakdown is relatively balanced. There are 367,993 observations in total with 51.31 percent being male and 48.69 percent being female. 188,822 of the subjects identify as male and 179,171 subjects identify as female. 
+\includegraphics {Sex dist}
+
+
+\subsection{Health Variables}
+Variables recorded include weight, age, height, HB levels, and Anemia levels. Each variable is recorded bi-monthly. The average duration of a subjects participation in the study is 16 months.  Data for each variable can be found from 2000 to 2014.
+
+\begin{center}
+\includegraphics {VARIABLES.png}
+\end{center}
+
+
+
+\end{document}
+
