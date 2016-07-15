@@ -18,6 +18,7 @@ rename FechaDeBaja birth_date
 rename Delegacion test_center
 rename altitud alt 
 *------------------------------------------------------------------------------
+*Renaming weight and date measurement variables
 forval year = 2000/2014 {
 	foreach month in ENE_FEB MAR_ABR MAY_JUN JUL_AGO SEP_OCT NOV_DIC{
 	rename `month'_`year'_PESO PESO_`month'_`year'
@@ -29,23 +30,21 @@ forval year = 2000/2014 {
 	}
 }
 	
+* Generate new variable recording subject age as integer values 
 forval year = 2000/2014 {
 	foreach month in ENE_FEB MAR_ABR MAY_JUN JUL_AGO SEP_OCT NOV_DIC{
 	generate avg_EDAD_`month'_`year' = round(EDAD_`month'_`year',1)
 	}
 }
 
-
+* Generate weight variables by subject age 
 forval year = 2000/2014 {
-forval age = 2/1378 {
+forval age = 0/1378 {
 	foreach month in ENE_FEB MAR_ABR MAY_JUN JUL_AGO SEP_OCT NOV_DIC {
 		generate month_`age'_weight = PESO_`month'_`year' if avg_EDAD_`month'_`year' == `age'
 		}
 	}
 }
-
-
-
 
 
 
