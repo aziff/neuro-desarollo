@@ -8,19 +8,19 @@ Date Last Updated: 	8-2-16
 
 *Renaming Variables 
 rename *,lower
-rename idindividuo 	id
-rename numestado 	id_state
-rename estado 		state
-rename municipio 	muni
+rename idindividuo 		id
+rename numestado 		id_state
+rename estado 			state
+rename municipio 		muni
 rename nummunicipio 	id_muni
-rename comunidad 	city 
+rename comunidad 		city 
 rename numcomunidad 	id_city
-rename numfamilia 	id_family 
-rename sexo 		sex
-rename sexonum 		sex_num
-rename fechanac 	birth_date
-rename delegacion 	test_center
-rename altitud 		alt 
+rename numfamilia 		id_family 
+rename sexo 			sex
+rename sexonum 			sex_num
+rename fechanac 		birth_date
+rename delegacion 		test_center
+rename altitud 			alt 
 rename beneficiario     caretaker
 rename nino             name_subject
 
