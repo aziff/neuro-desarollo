@@ -1,0 +1,31 @@
+Date:		October 14, 2016
+Attendees:	Tanya Rajan, Anna Ziff
+Purpose:	Go over issues in data and updates
+
+
+Tanya successfully merged the two datasets!
+
+However, some issues in the data. Including:
+1. Duplicates
+2. Quasi duplicates (e.g. same child, different birthdates)
+3. Children attending multiple centers
+
+There are also some questions about certain variables. Including:
+1. Enprograma -- is this some treatment indication?
+2. NumNino
+
+The timeline to finish cleaning these data and begin analysis
+
+This next week: 
+TR: keep looking into duplicates
+TR: continue documenting specific issues
+TR: push notes or put them in klmMexico depending on format
+TR & AZ: discuss issues and solutions to form a protocol
+AZ: get ready cleaning files so once problems are solved, we are almost done
+AZ: change repo to be hosted in klmMexico and upload guide
+AZ: update document from Sarah incorporating new notes
+
+Things to discuss next meeting
+Issues that come up
+How we want data to be structured (age bins, survey1..., etc.)
+Schedule meeting with Jorge
